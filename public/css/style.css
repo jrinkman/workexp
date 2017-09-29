@@ -1,0 +1,151 @@
+@media (max-width : 770px) {
+    .navtext{
+        float: right !important;
+        padding-right: 25px;
+    }
+
+    .main{
+        margin: 3em !important;
+    }
+
+    .main h1{
+        font-size: 48px !important;
+    }
+
+    .main p{
+        font-size: 16px !important;
+    }
+
+}
+
+canvas{
+    position: absolute;
+
+    background: red;
+    background: -webkit-linear-gradient(left top, rgba(55, 71, 79, 1), rgba(33, 33, 33, 1));
+    background: -o-linear-gradient(bottom right, rgba(55, 71, 79, 1), rgba(33, 33, 33, 1));
+    background: -moz-linear-gradient(bottom right, rgba(55, 71, 79, 1), rgba(33, 33, 33, 1));
+    background: linear-gradient(to bottom right, rgba(55, 71, 79, 1), rgba(33, 33, 33, 1));
+
+    z-index: -1;
+
+    bottom: 0;
+}
+
+#nav-mobile{
+    padding-top: 7px;
+    margin-right: -105px;
+}
+
+.slide{
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 3px solid transparent;    
+    width: 0px;
+    transition: 0.5s ease;
+    white-space: nowrap;
+    height: 25px;
+}
+.slide:hover {
+    border-bottom: 3px solid blue;
+    width: 200px;
+}
+
+.main{
+    margin: 5em;
+    z-index: 1;
+
+    overflow-y: auto;
+    position: fixed;
+    
+    bottom: 0;
+    left:0;
+    right: 0;
+    top: 15px;
+}
+
+.main h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 72px;
+
+    color: white;
+    margin-bottom: 10px;
+}
+
+.main p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+
+    padding-right: 10px;
+
+    color: white;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.noselect:hover {
+    cursor: default;
+}
+
+.navlogo {
+    padding: 12px 12px 12px 30px;
+    opacity: 1;
+
+    width: 40%;
+    height: 40%;
+
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.navlogo:hover {
+    opacity: 0.4;
+}
+
+.navtext{
+    opacity: 0.8;
+}
+
+.main::-webkit-scrollbar-track
+{
+    border-radius: 6px;
+    background-color: rgba(0,0,0,0);
+}
+
+.main::-webkit-scrollbar
+{
+    width: 6px;
+    background-color: rgba(1,1,1,0);
+}
+
+.main::-webkit-scrollbar-thumb
+{
+    border-radius: 6px;
+    background-color: rgba(1,1,1,0.4);
+}
+
+.textnav a
+{
+    color: white;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.textnav a:hover
+{
+    opacity: 0.6;
+    cursor: pointer;
+}
