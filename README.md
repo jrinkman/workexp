@@ -1,5 +1,5 @@
-# workexp
-My reflection of my SafetyCulture work experience.
+# SafetyCulture Work Experience
+A live demo of the website can be found [here](https://jackberingen.github.io/workexp/).
 
-## Demo
-A demo of this website can be found [here](https://workexp-safetyculture.firebaseapp.com/).
+---
+A reflection of my SafetyCulture work experience.
